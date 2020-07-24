@@ -1,4 +1,4 @@
-package mailfetcher
+package main
 
 import (
 	"encoding/base64"
@@ -36,6 +36,7 @@ func isNameCorrect(titleName string, strPrefix string) bool {
 
 	return false
 }
+
 //解码邮件主题
 func decodeMailSubject(subject string) string {
 	var strRet string
